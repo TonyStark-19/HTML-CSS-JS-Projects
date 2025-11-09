@@ -106,7 +106,7 @@
 @media (max-width: 870px) {
 
     .container {
-        width: 700px;
+        width: 90%;
         height: 160px;
     }
 }
@@ -114,7 +114,6 @@
 @media (max-width: 770px) {
 
     .container {
-        width: 600px;
         height: 140px;
     }
 
@@ -133,7 +132,6 @@
 @media (max-width: 670px) {
 
     .container {
-        width: 500px;
         height: 140px;
     }
 
@@ -152,7 +150,6 @@
 @media (max-width: 570px) {
 
     .container {
-        width: 400px;
         height: 120px;
     }
 
@@ -171,7 +168,6 @@
 @media (max-width: 470px) {
 
     .container {
-        width: 300px;
         height: 100px;
     }
 
@@ -195,7 +191,6 @@
 @media (max-width: 430px) {
 
     .container {
-        width: 280px;
         height: 110px;
     }
 

@@ -22,7 +22,7 @@
 /* calender container */
 
 .calender {
-    width: 350px;
+    width: 400px;
     height: 250px;
     background: #fff;
     display: flex;
@@ -42,7 +42,7 @@
 }
 
 .right {
-    width: 42%;
+    width: 45%;
     background: #f4351e;
     color: #fff;
     border-top-right-radius: 10px;
@@ -60,9 +60,9 @@
 
 /* responsivenesss */
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
 
     .calender {
-        width: 290px;
+        width: 90%;
     }
 }

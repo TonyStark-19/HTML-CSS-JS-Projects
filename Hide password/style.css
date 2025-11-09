@@ -43,7 +43,8 @@ body {
 @media (max-width: 570px) {
 
     .input-box {
-        max-width: 450px;
+        max-width: unset;
+        width: 90%;
     }
 
     .input-box input {
@@ -54,7 +55,6 @@ body {
 @media (max-width: 500px) {
 
     .input-box {
-        max-width: 400px;
         padding: 8px 16px;
     }
 
@@ -70,7 +70,6 @@ body {
 @media (max-width: 450px) {
 
     .input-box {
-        max-width: 350px;
         padding: 7px 14px;
     }
 
@@ -82,7 +81,6 @@ body {
 @media (max-width: 400px) {
 
     .input-box {
-        max-width: 300px;
         padding: 5px 14px;
     }
 }
