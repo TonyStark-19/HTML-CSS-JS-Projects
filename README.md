@@ -1,9 +1,9 @@
 # 🚀 HTML, CSS & JavaScript Mini Projects Website  
 
-Welcome to the **HTML, CSS & JavaScript Mini Projects Website!** 🎨✨  
-This website showcases various **mini projects** I created to enhance my front-end development and JavaScript skills. Each project comes with an **image preview**, **source code link**, and **live demo link** for easy access.  
+Welcome to my **Mini Projects Website**, a curated collection of **HTML, CSS & JavaScript** projects built to sharpen my front-end development skills. 🎨💻
+Every project includes an **image preview, source code link**, and **live demo** — making it easy to learn, explore, and interact.
 
-This is part of my journey to master front-end development, JavaScript logic, and UI/UX design. 🚀  
+This repo is a major milestone in my journey to master **JavaScript logic, UI/UX design**, and **web development fundamentals**. 🚀🔥
 
 ---
 
@@ -82,9 +82,10 @@ Each project includes:
 
 ---
 
-## Why This Project?  
+## 🌟 Why This Project Exists
 
-This repository is part of my #100DaysOfCode challenge to improve my JavaScript and front-end skills. Each project reflects the skills I’m building along the way.  
+This collection is part of my #100DaysOfCode journey. <br />
+Each project helped me strengthen a specific concept — from DOM manipulation and API calls to responsive design and user interactions.
 
 ---
 
@@ -113,7 +114,7 @@ To use these projects locally, follow these steps:
 
 1️⃣ **Clone this repository**  
 ```bash  
-git clone https://github.com/TonyStark-19/html-css-js-mini-projects.git  
+git clone https://github.com/TonyStark-19/HTML-CSS-JS-Projects.git
 ```
 
 2️⃣ **Open a project folder and launch the `.html` file in your browser.**  
@@ -122,4 +123,11 @@ git clone https://github.com/TonyStark-19/html-css-js-mini-projects.git
 
 ---
 
-Feel free to explore, use, and modify these projects. If you find them helpful, consider giving this repo a ⭐! 😊
+## ⭐ Feedback & Support
+
+If you find this collection helpful, please consider giving the repo a ⭐ star — it motivates me to build more! 🙌 <br />
+Feel free to fork, explore, and modify these projects.
+
+---
+
+💡 Built with ❤️ by Aditya chandel
