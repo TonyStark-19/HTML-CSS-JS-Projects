@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap');
+
+/* Brand Colors */
+
+:root {
+    --html-orange: #E34F26;
+    --css-blue: #1572B6;
+    --js-yellow: #F7DF1E;
+    --dark-bg: #05080f;
+    --glass: rgba(255, 255, 255, 0.03);
+    --glass-border: rgba(255, 255, 255, 0.08);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+    background-color: var(--dark-bg);
+    color: white;
+    overflow-x: hidden;
+}
+
+/* ===== Trinity Mesh Background ===== */
+
+.mesh-bg {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background:
+        /* CSS Blue - Top Right */
+        radial-gradient(circle at 80% 20%, rgba(21, 114, 182, 0.15), transparent 40%),
+        /* HTML Orange - Bottom Left */
+        radial-gradient(circle at 20% 80%, rgba(227, 79, 38, 0.15), transparent 40%),
+        /* JS Yellow - Center Glow */
+        radial-gradient(circle at 50% 50%, rgba(247, 223, 30, 0.1), transparent 50%);
+    /* Fallback dark background */
+    background-color: #05070a;
+}
+
+/* ===== Custom Scrollbar ===== */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0b0f17;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(var(--html-orange), var(--css-blue), var(--js-yellow));
+    border-radius: 10px;
+}
+
+/* ===== Container & Header ===== */
+
+.container {
+    padding: 160px 8% 80px;
+    min-height: 100vh;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.mini-badge {
+    color: var(--js-yellow);
+    background: rgba(247, 223, 30, 0.1);
+    padding: 6px 15px;
+    border-radius: 50px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.section-header h2 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.gradient-text {
+    background: linear-gradient(90deg, var(--html-orange), var(--css-blue), var(--js-yellow));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.section-header p {
+    color: #8892b0;
+    font-size: 1.1rem;
+}
+
+/* The Grid */
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 3rem;
+}
+
+/* Enhanced Project Card */
+
+.project-card {
+    background: var(--glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 24px;
+    overflow: hidden;
+    transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.project-card:hover {
+    transform: translateY(-12px);
+    border-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.card-image {
+    height: 220px;
+    overflow: hidden;
+    background: #0a1118;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.6s ease;
+}
+
+.project-card:hover .card-image img {
+    transform: scale(1.1);
+}
+
+/* Card Content Area */
+
+.card-content {
+    padding: 1.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-content h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #e2e8f0;
+}
+
+.button-group {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.icon-btn {
+    color: #94a3b8;
+    background: rgba(255, 255, 255, 0.05);
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid var(--glass-border);
+    transition: 0.3s;
+}
+
+.icon-btn:hover {
+    color: white;
+    background: var(--js-yellow);
+    transform: translateY(-3px);
+}
+
+/* Back to Top */
+
+.back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 55px;
+    height: 55px;
+    background: white;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    display: none;
+    z-index: 1000;
+    transition: 0.3s;
+}
+
+.back-to-top:hover {
+    transform: translateY(-5px);
+    background: var(--js-yellow);
+}
+
+.back-to-top i {
+    color: black;
+    font-size: 1.2rem;
+}
+
+/* Responsive Grid */
+
+@media (max-width: 768px) {
+
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        padding-top: 120px;
+    }
+}

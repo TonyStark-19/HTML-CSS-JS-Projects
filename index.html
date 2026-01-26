@@ -4,818 +4,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML-CSS-JS Projects</title>
-    <!-- font awesome link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>HTML CSS JS Mini Projects</title>
     <!-- favicon -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png" href="/images/Favicon/favicon.png">
     <!-- custom css -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/navbar.css">
 </head>
 
 <body>
+    <!-- Mesh Background -->
+    <div class="mesh-bg"></div>
 
-    <nav>
-
-        <div class="nav-wrap">
-
-            <div class="heading">
-                <h2>HTML-CSS-JS Projects</h2>
-            </div>
-
-            <div class="star-btn">
-                <a target="_blank" href="https://github.com/TonyStark-19/HTML-CSS-JS-Projects"><button><span>Star on
-                            Github</span>⭐</button></a>
-            </div>
-
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="/">
+                HTML CSS JS <span>Mini Projects</span>
+            </a>
         </div>
-
+        <div class="nav-right">
+            <a href="https://github.com/TonyStark-19/HTML-CSS-JS-Projects" target="_blank" class="star-btn">
+                <span>Star on GitHub</span> ⭐
+            </a>
+        </div>
     </nav>
 
-    <div class="container">
+    <main class="hero-grid">
+        <section class="content-side reveal-left">
+            <div class="badge">#100DaysOfCode Journey</div>
+            <h1>Mastering the <br> <span class="gradient-text">Frontend Trinity.</span></h1>
+            <p>
+                A personal archive of <strong>23+</strong> interactive tools, games, and UI components
+                developed by <strong>Aditya Chandel</strong>. Focused on DOM manipulation, API integration, and
+                responsive design.
+            </p>
 
-        <div class="back-to-top">
-            <button><i class="fa-solid fa-arrow-up"></i></button>
-        </div>
-
-        <div class="project-wrap">
-
-            <div class="project-box">
-
-                <div class="image">
-                    <img src="images/Calculator.png" alt="Calculator">
-                </div>
-
-                <div class="content-wrap">
-
-                    <div class="name">
-                        <h3>Calculator</h3>
-                    </div>
-
-                    <div class="button-wrap">
-
-                        <div class="code-btn">
-                            <a target="_blank" href="https://github.com/TonyStark-19/Calculator"><button><i
-                                        class="fa-solid fa-code"></i></button></a>
-                        </div>
-
-                        <div class="live-btn">
-                            <a target="_blank" href="https://tonystark-19.github.io/Calculator/"><button><i
-                                        class="fa-solid fa-up-right-from-square"></i></button></a>
-                        </div>
-
-                    </div>
-
-                </div>
-
+            <div class="cta-btns">
+                <a href="/Page/Project.html" class="btn-fill">Explore Projects</a>
+                <a href="https://github.com/TonyStark-19/HTML-CSS-Projects" target="_blank" class="btn-outline">
+                    Contribute Your Projects
+                </a>
             </div>
 
-            <div class="project-box">
-
-                <div class="image">
-                    <img src="images/Currency-convertor.png" alt="Currency-convertor">
-                </div>
-
-                <div class="content-wrap">
-
-                    <div class="name">
-                        <h3>Currency Convertor</h3>
-                    </div>
-
-                    <div class="button-wrap">
-
-                        <div class="code-btn">
-                            <a target="_blank" href="https://github.com/TonyStark-19/Currency-convertor"><button><i
-                                        class="fa-solid fa-code"></i></button></a>
-                        </div>
-
-                        <div class="live-btn">
-                            <a target="_blank" href="https://tonystark-19.github.io/Currency-convertor/"><button><i
-                                        class="fa-solid fa-up-right-from-square"></i></button></a>
-                        </div>
-
-                    </div>
-
-                </div>
-
+            <div class="stats-row">
+                <div class="stat"><strong class="html-txt">23+</strong> <span>Live Apps</span></div>
+                <div class="stat"><strong class="css-txt">100%</strong> <span>Responsive</span></div>
+                <div class="stat"><strong class="js-txt">JS</strong> <span>Logic Driven</span></div>
             </div>
+        </section>
 
-            <div class="project-box">
-
-                <div class="image">
-                    <img src="images/Rock-Paper-Scissors.png" alt="Rock-paper-scissors">
+        <section class="visual-side reveal-right">
+            <div class="preview-stack">
+                <div class="glass-preview-card">
+                    <div class="card-header">
+                        <div class="dots"><span></span><span></span><span></span></div>
+                        <span class="card-title">Quote Generator</span>
+                    </div>
+                    <div class="card-img-box">
+                        <img src="/images/Projects/Quote-generator.png" alt="Project Preview">
+                    </div>
+                    <div class="card-info">
+                        <div class="tags">
+                            <span class="tag-html">HTML</span>
+                            <span class="tag-css">CSS</span>
+                            <span class="tag-js">JS</span>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="content-wrap">
-
-                    <div class="name">
-                        <h3>Rock-Paper-Scissors Game</h3>
+                <div class="glass-preview-card secondary-card">
+                    <div class="card-img-box">
+                        <img src="/images/Projects/Digital-clock.png" alt="UI Preview">
                     </div>
-
-                    <div class="button-wrap">
-
-                        <div class="code-btn">
-                            <a target="_blank" href="https://github.com/TonyStark-19/Rock-paper-scissors"><button><i
-                                        class="fa-solid fa-code"></i></button></a>
-                        </div>
-
-                        <div class="live-btn">
-                            <a target="_blank" href="https://tonystark-19.github.io/Rock-paper-scissors/"><button><i
-                                        class="fa-solid fa-up-right-from-square"></i></button></a>
-                        </div>
-
+                    <div class="card-info">
+                        <h4>Modern UI Components</h4>
                     </div>
-
                 </div>
-
             </div>
+        </section>
+    </main>
 
-            <div class="project-box">
-
-                <div class="image">
-                    <img src="images/Tic-Tac-Toe.png" alt="Tic-Tac-Toe">
-                </div>
-
-                <div class="content-wrap">
-
-                    <div class="name">
-                        <h3>Tic-Tac-Toe Game</h3>
-                    </div>
-
-                    <div class="button-wrap">
-
-                        <div class="code-btn">
-                            <a target="_blank" href="https://github.com/TonyStark-19/Tic-Tac-Toe"><button><i
-                                        class="fa-solid fa-code"></i></button></a>
-                        </div>
-
-                        <div class="live-btn">
-                            <a target="_blank" href="https://tonystark-19.github.io/Tic-Tac-Toe/"><button><i
-                                        class="fa-solid fa-up-right-from-square"></i></button></a>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="project-box">
-
-                <div class="image">
-                    <img src="images/Calender.png" alt="Calender">
-                </div>
-
-                <div class="content-wrap">
-
-                    <div class="name">
-                        <h3>Calender</h3>
-                    </div>
-
-                    <div class="button-wrap">
-
-                        <div class="code-btn">
-                            <a target="_blank"
-                                href="https://github.com/TonyStark-19/HTML-CSS-JS-Projects/tree/main/Calender"><button><i
-                                        class="fa-solid fa-code"></i></button></a>
-                        </div>
-
-                        <div class="live-btn">
-                            <a target="_blank" href="Calender/index.html"><button><i
-                                        class="fa-solid fa-up-right-from-square"></i></button></a>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="project-box">
-
-                <div class="image">
-                    <img src="images/Hide-Show-Password.png" alt="Hide Or Show Password">
-                </div>
-
-                <div class="content-wrap">
-
-                    <div class="name">
-                        <h3>Hide Or Show Password</h3>
-                    </div>
-
-                    <div class="button-wrap">
-
-                        <div class="code-btn">
-                            <a target="_blank"
-                                href="https://github.com/TonyStark-19/HTML-CSS-JS-Projects/tree/main/Hide%20password"><button><i
-                                        class="fa-solid fa-code"></i></button></a>
-                        </div>
-
-                        <div class="live-btn">
-                            <a target="_blank" href="Hide password/index.html"><button><i
-                                        class="fa-solid fa-up-right-from-square"></i></button></a>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="project-box">
-
-                <div class="image">
-                    <img src="images/Coming-soon-page.png" alt="Coming Soon Page">
-                </div>
-
-                <div class="content-wrap">
-
-                    <div class="name">
-                        <h3>Coming Soon Page</h3>
-                    </div>
-
-                    <div class="button-wrap">
-
-                        <div class="code-btn">
-                            <a target="_blank"
-                                href="https://github.com/TonyStark-19/HTML-CSS-JS-Projects/tree/main/Coming%20soon"><button><i
-                                        class="fa-solid fa-code"></i></button></a>
-                        </div>
-
-                        <div class="live-btn">
-                            <a target="_blank" href="Coming soon/index.html"><button><i
-                                        class="fa-solid fa-up-right-from-square"></i></button></a>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="project-box">
-
-                <div class="image">
-                    <img src="images/Digital-clock.png" alt="Digital Clock">
-                </div>
-
-                <div class="content-wrap">
-
-                    <div class="name">
-                        <h3>Digital Clock</h3>
-                    </div>
-
-                    <div class="button-wrap">
-
-                        <div class="code-btn">
-                            <a target="_blank"
-                                href="https://github.com/TonyStark-19/HTML-CSS-JS-Projects/tree/main/Digital%20Clock"><button><i
-                                        class="fa-solid fa-code"></i></button></a>
-                        </div>
-
-                        <div class="live-btn">
-                            <a target="_blank" href="Digital Clock/index.html"><button><i
-                                        class="fa-solid fa-up-right-from-square"></i></button></a>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="project-box">
-
-                <div class="image">
-                    <img src="images/Random-password.png" alt="Random-password">
-                </div>
-
-                <div class="content-wrap">
-
-                    <div class="name">
-                        <h3>Random Password Generator</h3>
-                    </div>
-
-                    <div class="button-wrap">
-
-                        <div class="code-btn">
-                            <a target="_blank"
-                                href="https://github.com/TonyStark-19/HTML-CSS-JS-Projects/tree/main/Random%20Password"><button><i
-                                        class="fa-solid fa-code"></i></button></a>
-                        </div>
-
-                        <div class="live-btn">
-                            <a target="_blank" href="Random Password/index.html"><button><i
-                                        class="fa-solid fa-up-right-from-square"></i></button></a>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="project-box">
-
-                <div class="image">
-                    <img src="images/Password-strength.png" alt="Password-strength">
-                </div>
-
-                <div class="content-wrap">
-
-                    <div class="name">
-                        <h3>Password Strength Indicator</h3>
-                    </div>
-
-                    <div class="button-wrap">
-
-                        <div class="code-btn">
-                            <a target="_blank"
-                                href="https://github.com/TonyStark-19/HTML-CSS-JS-Projects/tree/main/Password%20strength"><button><i
-                                        class="fa-solid fa-code"></i></button></a>
-                        </div>
-
-                        <div class="live-btn">
-                            <a target="_blank" href="Password strength/index.html"><button><i
-                                        class="fa-solid fa-up-right-from-square"></i></button></a>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="project-box">
-
-                <div class="image">
-                    <img src="images/Quote-generator.png" alt="Quote-generator">
-                </div>
-
-                <div class="content-wrap">
-
-                    <div class="name">
-                        <h3>Random Quote Generator</h3>
-                    </div>
-
-                    <div class="button-wrap">
-
-                        <div class="code-btn">
-                            <a target="_blank"
-                                href="https://github.com/TonyStark-19/HTML-CSS-JS-Projects/tree/main/Quote%20Generator"><button><i
-                                        class="fa-solid fa-code"></i></button></a>
-                        </div>
-
-                        <div class="live-btn">
-                            <a target="_blank" href="Quote Generator/index.html"><button><i
-                                        class="fa-solid fa-up-right-from-square"></i></button></a>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="project-box">
-
-                <div class="image">
-                    <img src="images/Drag-Drop.png" alt="Drag & Drop">
-                </div>
-
-                <div class="content-wrap">
-
-                    <div class="name">
-                        <h3>Drag & Drop</h3>
-                    </div>
-
-                    <div class="button-wrap">
-
-                        <div class="code-btn">
-                            <a target="_blank"
-                                href="https://github.com/TonyStark-19/HTML-CSS-JS-Projects/tree/main/Drag%20and%20Drop"><button><i
-                                        class="fa-solid fa-code"></i></button></a>
-                        </div>
-
-                        <div class="live-btn">
-                            <a target="_blank" href="Drag and Drop/index.html"><button><i
-                                        class="fa-solid fa-up-right-from-square"></i></button></a>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="project-box">
-
-                <div class="image">
-                    <img src="images/QR-Code.png" alt="QR Code Generator">
-                </div>
-
-                <div class="content-wrap">
-
-                    <div class="name">
-                        <h3>QR Code Generator</h3>
-                    </div>
-
-                    <div class="button-wrap">
-
-                        <div class="code-btn">
-                            <a target="_blank"
-                                href="https://github.com/TonyStark-19/HTML-CSS-JS-Projects/tree/main/QR%20Code%20Generator"><button><i
-                                        class="fa-solid fa-code"></i></button></a>
-                        </div>
-
-                        <div class="live-btn">
-                            <a target="_blank" href="QR Code Generator/index.html"><button><i
-                                        class="fa-solid fa-up-right-from-square"></i></button></a>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="project-box">
-
-                <div class="image">
-                    <img src="images/Select-menu.png" alt="Select Menu Design">
-                </div>
-
-                <div class="content-wrap">
-
-                    <div class="name">
-                        <h3>Select Menu Design</h3>
-                    </div>
-
-                    <div class="button-wrap">
-
-                        <div class="code-btn">
-                            <a target="_blank"
-                                href="https://github.com/TonyStark-19/HTML-CSS-JS-Projects/tree/main/Select%20Menu%20Design"><button><i
-                                        class="fa-solid fa-code"></i></button></a>
-                        </div>
-
-                        <div class="live-btn">
-                            <a target="_blank" href="Select Menu Design/index.html"><button><i
-                                        class="fa-solid fa-up-right-from-square"></i></button></a>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="project-box">
-
-                <div class="image">
-                    <img src="images/Text-to-speech.png" alt="Text-to-speech">
-                </div>
-
-                <div class="content-wrap">
-
-                    <div class="name">
-                        <h3>Text To Speech Convertor</h3>
-                    </div>
-
-                    <div class="button-wrap">
-
-                        <div class="code-btn">
-                            <a target="_blank"
-                                href="https://github.com/TonyStark-19/HTML-CSS-JS-Projects/tree/main/Text%20to%20speech"><button><i
-                                        class="fa-solid fa-code"></i></button></a>
-                        </div>
-
-                        <div class="live-btn">
-                            <a target="_blank" href="Text to speech/index.html"><button><i
-                                        class="fa-solid fa-up-right-from-square"></i></button></a>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="project-box">
-
-                <div class="image">
-                    <img src="images/Age-calculator.png" alt="Age-calculator">
-                </div>
-
-                <div class="content-wrap">
-
-                    <div class="name">
-                        <h3>Age Calculator</h3>
-                    </div>
-
-                    <div class="button-wrap">
-
-                        <div class="code-btn">
-                            <a target="_blank"
-                                href="https://github.com/TonyStark-19/HTML-CSS-JS-Projects/tree/main/Age%20calculator"><button><i
-                                        class="fa-solid fa-code"></i></button></a>
-                        </div>
-
-                        <div class="live-btn">
-                            <a target="_blank" href="Age calculator/index.html"><button><i
-                                        class="fa-solid fa-up-right-from-square"></i></button></a>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="project-box">
-
-                <div class="image">
-                    <img src="images/Toast-notification.png" alt="Toast notification">
-                </div>
-
-                <div class="content-wrap">
-
-                    <div class="name">
-                        <h3>Toast Notification</h3>
-                    </div>
-
-                    <div class="button-wrap">
-
-                        <div class="code-btn">
-                            <a target="_blank"
-                                href="https://github.com/TonyStark-19/HTML-CSS-JS-Projects/tree/main/Toast%20notification"><button><i
-                                        class="fa-solid fa-code"></i></button></a>
-                        </div>
-
-                        <div class="live-btn">
-                            <a target="_blank" href="Toast notification/index.html"><button><i
-                                        class="fa-solid fa-up-right-from-square"></i></button></a>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="project-box">
-
-                <div class="image">
-                    <img src="images/Stopwatch.png" alt="Stopwatch">
-                </div>
-
-                <div class="content-wrap">
-
-                    <div class="name">
-                        <h3>Stopwatch</h3>
-                    </div>
-
-                    <div class="button-wrap">
-
-                        <div class="code-btn">
-                            <a target="_blank"
-                                href="https://github.com/TonyStark-19/HTML-CSS-JS-Projects/tree/main/Stopwatch"><button><i
-                                        class="fa-solid fa-code"></i></button></a>
-                        </div>
-
-                        <div class="live-btn">
-                            <a target="_blank" href="Stopwatch/index.html"><button><i
-                                        class="fa-solid fa-up-right-from-square"></i></button></a>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="project-box">
-
-                <div class="image">
-                    <img src="images/To-do.png" alt="To-Do List">
-                </div>
-
-                <div class="content-wrap">
-
-                    <div class="name">
-                        <h3>To-Do List</h3>
-                    </div>
-
-                    <div class="button-wrap">
-
-                        <div class="code-btn">
-                            <a target="_blank"
-                                href="https://github.com/TonyStark-19/HTML-CSS-JS-Projects/tree/main/To-do-list"><button><i
-                                        class="fa-solid fa-code"></i></button></a>
-                        </div>
-
-                        <div class="live-btn">
-                            <a target="_blank" href="To-do-list/index.html"><button><i
-                                        class="fa-solid fa-up-right-from-square"></i></button></a>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="project-box">
-
-                <div class="image">
-                    <img src="images/weather-app.png" alt="Weather-app">
-                </div>
-
-                <div class="content-wrap">
-
-                    <div class="name">
-                        <h3>Weather-app</h3>
-                    </div>
-
-                    <div class="button-wrap">
-
-                        <div class="code-btn">
-                            <a target="_blank" href="https://github.com/TonyStark-19/Weather-app"><button><i
-                                        class="fa-solid fa-code"></i></button></a>
-                        </div>
-
-                        <div class="live-btn">
-                            <a target="_blank" href="https://weather-app-orcin-seven-66.vercel.app/"><button><i
-                                        class="fa-solid fa-up-right-from-square"></i></button></a>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="project-box">
-
-                <div class="image">
-                    <img src="images/image-search-engine.png" alt="image-search-engine">
-                </div>
-
-                <div class="content-wrap">
-
-                    <div class="name">
-                        <h3>Image Search Engine</h3>
-                    </div>
-
-                    <div class="button-wrap">
-
-                        <div class="code-btn">
-                            <a target="_blank" href="https://github.com/TonyStark-19/Image-Search-Engine"><button><i
-                                        class="fa-solid fa-code"></i></button></a>
-                        </div>
-
-                        <div class="live-btn">
-                            <a target="_blank" href="https://image-search-engine-sooty.vercel.app/"><button><i
-                                        class="fa-solid fa-up-right-from-square"></i></button></a>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="project-box">
-
-                <div class="image">
-                    <img src="images/form-validation.png" alt="form-validation">
-                </div>
-
-                <div class="content-wrap">
-
-                    <div class="name">
-                        <h3>Form Validation</h3>
-                    </div>
-
-                    <div class="button-wrap">
-
-                        <div class="code-btn">
-                            <a target="_blank"
-                                href="https://github.com/TonyStark-19/HTML-CSS-JS-Projects/tree/main/Form%20validation"><button><i
-                                        class="fa-solid fa-code"></i></button></a>
-                        </div>
-
-                        <div class="live-btn">
-                            <a target="_blank" href="Form validation/index.html"><button><i
-                                        class="fa-solid fa-up-right-from-square"></i></button></a>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="project-box">
-
-                <div class="image">
-                    <img src="images/Notes-app.png" alt="Notes-app">
-                </div>
-
-                <div class="content-wrap">
-
-                    <div class="name">
-                        <h3>Notes App</h3>
-                    </div>
-
-                    <div class="button-wrap">
-
-                        <div class="code-btn">
-                            <a target="_blank"
-                                href="https://github.com/TonyStark-19/HTML-CSS-JS-Projects/tree/main/Notes%20app"><button><i
-                                        class="fa-solid fa-code"></i></button></a>
-                        </div>
-
-                        <div class="live-btn">
-                            <a target="_blank" href="Notes app/index.html"><button><i
-                                        class="fa-solid fa-up-right-from-square"></i></button></a>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-    <footer>
-
-        <div class="foot-wrap">
-
-            <div class="resources">
-
-                <div class="heading">
-                    <h3>How i built these mini projects?</h3>
-                </div>
-
-                <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN Docs</a>
-
-                <a target="_blank"
-                    href="https://www.youtube.com/playlist?list=PLjwm_8O3suyOgDS_Z8AWbbq3zpCmR-WE9">GreatStack youtube
-                    channel</a>
-
-            </div>
-
-            <div class="connect">
-
-                <div class="heading">
-                    <h3>Connect with me</h3>
-                </div>
-
-                <div class="icons">
-
-                    <a target="_blank" href="https://www.linkedin.com/in/aditya-chandel-dev"
-                        aria-label="LinkedIn profile"><i class="fa-brands fa-linkedin"></i></a>
-                    <a target="_blank" href="https://github.com/TonyStark-19" aria-label="GitHub profile"><i
-                            class="fa-brands fa-github"></i></a>
-                    <a target="_blank" href="https://instagram.com/aaditya_ch124" aria-label="Instagram profile"><i
-                            class="fa-brands fa-instagram"></i></a>
-                    <a target="_blank" href="https://twitter.com/iamaditya_3" aria-label="X Profile">
-                        <i class="fa-brands fa-x-twitter"></i></a>
-
-                </div>
-
-            </div>
-
-            <div class="more-links">
-
-                <div class="heading">
-                    <h3>More links</h3>
-                </div>
-
-                <a target="_blank" href="https://adityadev-tau.vercel.app/">My Portfolio</a>
-                <a target="_blank" href="https://tonystark-19.github.io/Dev-Diary/">Dev Diary</a>
-                <a target="_blank" href="https://html-css-projects-phi.vercel.app/">HTML-CSS-Projects</a>
-
-            </div>
-
-        </div>
-
-        <div class="end-text">
-            <p>Made with ❤️ by Aditya chandel :)</p>
-        </div>
-
-    </footer>
-
-    <!-- scroll reveal -->
+    <!-- ScrollReveal Library -->
     <script src="https://unpkg.com/scrollreveal"></script>
-    <!-- custon js link -->
-    <script src="script.js"></script>
+    <!-- Custom JS -->
+    <script src="/js/home.js"></script>
+    <!-- vercel analytics -->
+    <script defer src="/_vercel/insights/script.js"></script>
 
 </body>
 
