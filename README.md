@@ -1,4 +1,4 @@
-# 🚀 HTML, CSS & JavaScript Mini Projects Website
+# 🚀 HTML, CSS & JavaScript Mini Projects Hub
 
 ![Repo Size](https://img.shields.io/github/repo-size/TonyStark-19/HTML-CSS-JS-Projects?color=yellow)
 ![Stars](https://img.shields.io/github/stars/TonyStark-19/HTML-CSS-JS-Projects?color=blue)
@@ -11,31 +11,24 @@
 ![ScrollReveal](https://img.shields.io/badge/Library-ScrollReveal-blueviolet)
 ![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)
 
-Welcome to my **Mini Projects Website**, a curated collection of **HTML, CSS & JavaScript** projects built to sharpen my front-end development skills. 🎨💻
+---
+
+## 📖 Overview
+
+Welcome to the **HTML, CSS & JavaScript Mini Projects Hub** — a curated collection of beginner-friendly frontend projects built to sharpen **UI/UX,
+JavaScript logic, DOM manipulation, API usage**, and responsive design skills.
+
 Every project includes an **image preview, source code link**, and **live demo** — making it easy to learn, explore, and interact.
 
 This repo is a major milestone in my journey to master **JavaScript logic, UI/UX design**, and **web development fundamentals**. 🚀🔥
 
 ---
 
-## 📌 Overview  
+## 📸 Visual Preview
 
-This website is designed to:  
-✅ Showcase **each project** with a preview image  
-✅ Provide **live deployment links** for direct interaction  
-✅ Offer **source code access** for easy learning  
-✅ Feature **JS animations** with ScrollReveal for smooth effects  
-✅ Ensure **full responsiveness** for all projects  
-✅ Include a **Back-to-Top button** for seamless navigation  
-✅ Have a **footer with useful resources**  
-
-Built to help beginners explore and learn front-end development interactively! 🌱  
-
----
-
-## 📸 Screenshots  
-
-![Mini-Projects](images/Screenshot.png)  
+| 🏠 Home Page Interface | 📂 Project Gallery |
+| :---: | :---: |
+| ![Home Page](/images/Screenshots/home.png) | ![Projects Page](/images/Screenshots/Project.png) |
 
 ---
 
@@ -45,14 +38,16 @@ The project is live and can be viewed here: [HTML, CSS & JS Mini Projects Websit
 
 ---
 
-## 🛠 Technologies Used  
+## 🛠 Tech Stack
 
-- **🌍 HTML5** – Structuring web pages  
-- **🎨 CSS3** – Styling, animations, and layouts  
-- **⚡ JavaScript** – Logic, interactions, and functionalities  
-- **📜 ScrollReveal.js** – Smooth animation effects  
-- **🖊️ VS Code** – Primary code editor  
-- **🐙 Git & GitHub** – Version control and hosting  
+| Technology | Purpose |
+|-----------|--------|
+| **HTML5** | Page structure |
+| **CSS3** | Styling, layouts & animations |
+| **JavaScript** | Logic, DOM manipulation & APIs |
+| **ScrollReveal.js** | Scroll-based animations |
+| **Vercel** | Deployment |
+| **Git & GitHub** | Version control |
 
 ---
 
@@ -71,38 +66,60 @@ Each project includes:
 ![Projects Count](https://img.shields.io/badge/Projects-23+-yellow)
 ![Animations](https://img.shields.io/badge/CSS-Animations-purple)
 
-> **Utility & Interactive Tools**  
+### 🧰 Utility & Interactive Tools
 
-1. **Calculator** – A basic calculator with JavaScript functionality.  
-2. **Currency Converter** – Convert between different currencies dynamically.  
-3. **Rock-Paper-Scissors Game** – A fun interactive game with JavaScript logic.  
-4. **Tic-Tac-Toe Game** – Classic two-player tic-tac-toe game.  
-5. **Calendar** – A simple calendar display with JavaScript.  
-6. **Hide and Show Password** – A toggle button to show/hide passwords.  
-7. **Coming Soon Page with Launch Countdown** – A stylish countdown timer for upcoming events.  
-8. **Digital Clock** – A live digital clock displaying the current time.  
-9. **Random Password Generator** – Generate secure random passwords.  
-10. **Password Strength Indicator** – Visual indicator for password strength.  
-11. **Random Quote Generator** – Get a new random quote with each click.  
-12. **Drag and Drop Items** – A simple drag-and-drop functionality.  
-13. **QR Code Generator** – Generate QR codes from input text.  
-14. **Select Menu Design** – Custom-styled dropdown select menus.  
-15. **Text-to-Speech Converter** – Convert written text into spoken words.  
-16. **Age Calculator** – Calculate your age based on input birthdate.  
-17. **Toast Notification** – A simple toast notification popup.  
-18. **Stopwatch** – A functional stopwatch with start, stop, and reset.
-19. **To-do list** - A functional to-do list app to add tasks.
-20. **Weather App** - A weather app to display weather of different cities.
-21. **Image search engine** - An image search engine using unsplash API.
-22. **From validation** - A form with validation checks to make sure the input is valid.
-23. **Notes App** - a notes app to create multiple notes.
+| # | Project | Description |
+|---|--------|-------------|
+| 1 | Calculator | Basic calculator with JS functionality |
+| 2 | Currency Converter | Convert currencies dynamically |
+| 3 | Rock-Paper-Scissors | Interactive game logic |
+| 4 | Tic-Tac-Toe | Classic 2-player game |
+| 5 | Calendar | Dynamic calendar display |
+| 6 | Show/Hide Password | Password visibility toggle |
+| 7 | Countdown Page | Launch timer page |
+| 8 | Digital Clock | Real-time clock |
+| 9 | Password Generator | Secure random passwords |
+| 10 | Password Strength Indicator | Strength checker UI |
+| 11 | Quote Generator | Random quote generator |
+| 12 | Drag & Drop | Drag-drop interaction |
+| 13 | QR Code Generator | Generate QR codes |
+| 14 | Custom Select Menu | Styled dropdowns |
+| 15 | Text-to-Speech | Speech synthesis |
+| 16 | Age Calculator | Calculate age from DOB |
+| 17 | Toast Notification | Notification popup UI |
+| 18 | Stopwatch | Functional stopwatch |
+| 19 | To-Do List | Task management app |
+| 20 | Weather App | Weather using API |
+| 21 | Image Search Engine | Unsplash API search |
+| 22 | Form Validation | Input validation checks |
+| 23 | Notes App | Multi-note app |
 
 ---
 
-## 🌟 Why This Project Exists
+## 🤝 Contributing
 
-This collection is part of my #100DaysOfCode journey. <br />
-Each project helped me strengthen a specific concept — from DOM manipulation and API calls to responsive design and user interactions.
+Want to add your own mini project? Contributions are welcome!
+
+Please read **[CONTRIBUTING.md](CONTRIBUTING.md)** for guidelines on:
+- Folder structure
+- Code quality
+- Image naming
+- Adding your project card
+
+---
+
+## 🛠 Installation & Usage  
+
+To use these projects locally, follow these steps:  
+
+1️⃣ **Clone this repository**  
+```bash  
+git clone https://github.com/TonyStark-19/HTML-CSS-JS-Projects.git
+```
+
+2️⃣ **Open a project folder and launch the `.html` file in your browser.**  
+
+🚀 No dependencies required! Just HTML, CSS & JavaScript.  
 
 ---
 
@@ -125,26 +142,12 @@ These are the resources I used to learn and build these projects:
 
 ---
 
-## 🛠 Installation & Usage  
+## 📜 License
 
-To use these projects locally, follow these steps:  
-
-1️⃣ **Clone this repository**  
-```bash  
-git clone https://github.com/TonyStark-19/HTML-CSS-JS-Projects.git
-```
-
-2️⃣ **Open a project folder and launch the `.html` file in your browser.**  
-
-🚀 No dependencies required! Just HTML, CSS & JavaScript.  
+This project is licensed under the MIT License.
+You are free to use, modify, and share these projects.
 
 ---
 
-## ⭐ Feedback & Support
-
-If you find this collection helpful, please consider giving the repo a ⭐ star — it motivates me to build more! 🙌 <br />
-Feel free to fork, explore, and modify these projects.
-
----
-
-💡 Built with ❤️ by Aditya chandel
+Feel free to explore, use, and modify these projects.
+If you find them helpful, consider giving this repo a ⭐! 😊
