@@ -21,7 +21,7 @@
 body {
     background: var(--dark-bg);
     color: white;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 /* Updated Trinity Mesh Gradient */
@@ -46,8 +46,8 @@ body {
 .hero-grid {
     display: grid;
     grid-template-columns: 1.2fr 1fr;
-    min-height: 100vh;
-    padding: 140px 8% 60px 8%;
+    min-height: 100svh;
+    padding: 120px 8% 0 8%;
     align-items: center;
     gap: 4rem;
 }
@@ -125,6 +125,9 @@ p {
     align-items: center;
     gap: 8px;
     transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-outline:hover {
@@ -277,7 +280,7 @@ p {
 
 /* Responsiveness */
 
-@media (max-width: 1024px) {
+@media (max-width: 1100px) {
 
     .hero-grid {
         grid-template-columns: 1fr;
@@ -306,6 +309,11 @@ p {
     }
 
     .stats-row {
+        justify-content: center;
         gap: 1.5rem;
+    }
+
+    .stat strong {
+        font-size: 1.2rem;
     }
 }
