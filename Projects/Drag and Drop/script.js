@@ -1,5 +1,4 @@
-// js logic
-
+// get elements
 let lists = document.getElementsByClassName("list");
 let leftBox = document.getElementById("left");
 let rightBox = document.getElementById("right");
@@ -23,6 +22,7 @@ for (let list of lists) {
         leftBox.addEventListener("dragover", function (e) {
             e.preventDefault();
         });
+
         leftBox.addEventListener("drop", function (e) {
             leftBox.appendChild(selected);
             selected = null;

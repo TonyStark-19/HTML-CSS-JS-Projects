@@ -1,5 +1,4 @@
-// js logic
-
+// get elements
 const notesContainer = document.querySelector(".notes-container");
 const createBtn = document.querySelector(".btn");
 let notes = document.querySelectorAll(".input-box");
@@ -35,6 +34,7 @@ createBtn.addEventListener("click", () => {
     // add p and i in note div
     noteDiv.appendChild(inputBox);
     noteDiv.appendChild(icon);
+    
     // add note div in notes container
     notesContainer.appendChild(noteDiv);
 

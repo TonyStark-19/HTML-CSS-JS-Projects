@@ -1,5 +1,4 @@
-// js logic
-
+// get element
 let toastBox = document.getElementById('toastBox');
 
 // adding icons and message for each notification

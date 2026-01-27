@@ -1,11 +1,10 @@
-// js logic
-
 // getting speech using js
 let speech = new SpeechSynthesisUtterance();
 
 // voices array
 let voices = [];
 
+// voice select
 let voiceSelect = document.querySelector("select");
 
 // changing voices

@@ -1,5 +1,3 @@
-// js logic
-
 // get elements by id
 let hrs = document.getElementById("hrs");
 let min = document.getElementById("min");

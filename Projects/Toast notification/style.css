@@ -21,7 +21,6 @@ body {
 /* buttons */
 
 .buttons button {
-    background: #333;
     color: #fff;
     border: 0;
     outline: 0;
@@ -31,7 +30,20 @@ body {
     border-radius: 10px;
     cursor: pointer;
     outline: none;
+    font-size: 16px;
     -webkit-tap-highlight-color: transparent;
+}
+
+.buttons button.Success {
+    background-color: green;
+}
+
+.buttons button.Error {
+    background-color: red;
+}
+
+.buttons button.Invalid {
+    background-color: orange;
 }
 
 /* notification box */

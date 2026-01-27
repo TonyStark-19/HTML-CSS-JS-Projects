@@ -1,5 +1,3 @@
-// js logic
-
 // user input date
 let userInput = document.getElementById("date");
 

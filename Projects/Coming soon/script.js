@@ -1,7 +1,7 @@
-// js logic
+// countdown date
+var countDownDate = new Date("March 7, 2026 00:00:00").getTime(); // countdown end date
 
-var countDownDate = new Date("January 1, 2026 00:00:00").getTime(); // countdown end date
-
+// function
 var x = setInterval(function () {
 
     var now = new Date().getTime(); // current date

@@ -1,5 +1,4 @@
-// js logic
-
+// get elements
 const passwordBox = document.getElementById("password");
 const length = 12; // password length
 
@@ -9,6 +8,7 @@ const lowerCase = "abcdefghijklmnopqrstuvwxyz";
 const number = "0123456789";
 const symbols = "@#$%^&*()_+~|}{[]></-=";
 
+// combine all allowed characters
 const allChars = upperCase + lowerCase + number + symbols;
 
 // function for generating password

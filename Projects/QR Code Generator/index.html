@@ -5,22 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QR Code Generator</title>
+    <!-- custom styles -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <div class="container">
-
-        <p>Enter your text or URL</p>
-        <input type="text" placeholder="Text or URL" id="qrText">
+        <p>Generate a QR Code</p>
+        <input type="text" placeholder="https://example.com" id="qrText">
 
         <div id="imgBox">
             <img src="" id="qrImage">
         </div>
 
         <button onclick="generateQR()">Generate QR Code</button>
-
     </div>
 
     <!-- custon js link -->

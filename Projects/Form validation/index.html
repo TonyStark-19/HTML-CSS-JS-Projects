@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom styles -->
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -17,29 +18,28 @@
     <div class="container">
 
         <form>
-
             <i class="fa-solid fa-paper-plane"></i>
 
+            <label for="contact-name">Full Name</label>
             <div class="input-group">
-                <label>Full Name</label>
                 <input type="text" placeholder="Enter your name" id="contact-name" onkeyup="validateName()">
                 <span id="name-error"></span>
             </div>
 
+            <label for="contact-phone">Phone No.</label>
             <div class="input-group">
-                <label>Phone No.</label>
                 <input type="tel" placeholder="123 456 7890" id="contact-phone" onkeyup="validatePhone()">
                 <span id="phone-error"></span>
             </div>
 
+            <label for="contact-email">Email Id</label>
             <div class="input-group">
-                <label>Email Id</label>
                 <input type="email" placeholder="Enter Email" id="contact-email" onkeyup="validateEmail()">
                 <span id="email-error"></span>
             </div>
 
+            <label for="contact-message">Your Message</label>
             <div class="input-group message">
-                <label>Your Message</label>
                 <textarea rows="5" placeholder="Enter your message" id="contact-message"
                     onkeyup="validateMessage()"></textarea>
                 <span id="message-error"></span>
@@ -49,7 +49,6 @@
                 <button onclick="return validateForm()">Submit</button>
                 <span id="submit-error"></span>
             </div>
-
         </form>
 
     </div>

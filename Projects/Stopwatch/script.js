@@ -1,5 +1,3 @@
-// js logic
-
 // intialising timer
 let [seconds, minutes, hours] = [0, 0, 0];
 let displayTime = document.getElementById("displayTime");
@@ -7,7 +5,6 @@ let timer = null;
 
 // stopwatch function
 function stopwatch() {
-
     // timer logic
     seconds++;
     if (seconds == 60) {

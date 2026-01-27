@@ -1,8 +1,8 @@
-// js logic
-
+// get elements
 let eyeicon = document.getElementById("eyeicon");
 let password = document.getElementById("password");
 
+// hide/show password
 eyeicon.onclick = function () {
     if (password.type === "password") {
         password.type = "text";

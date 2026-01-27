@@ -9,15 +9,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom styles -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <div class="buttons">
-        <button onclick="showToast(successMsg)">Success</button>
-        <button onclick="showToast(errorMsg)">Error</button>
-        <button onclick="showToast(invalidMsg)">Invalid</button>
+        <button class="Success" onclick="showToast(successMsg)">Success</button>
+        <button class="Error" onclick="showToast(errorMsg)">Error</button>
+        <button class="Invalid" onclick="showToast(invalidMsg)">Invalid</button>
     </div>
 
     <div id="toastBox">

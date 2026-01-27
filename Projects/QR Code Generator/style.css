@@ -5,95 +5,130 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-    user-select: none;
 }
 
 body {
-    background: #262a2f;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(315deg, hsla(303, 42%, 44%, 1) 38%, hsla(289, 90%, 20%, 1) 80%);
 }
 
-/* container */
+/* Glass Container */
 
 .container {
-    width: 400px;
-    padding: 25px 35px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #fff;
-    border-radius: 10px;
+    width: 420px;
+    padding: 35px;
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(22px);
+    -webkit-backdrop-filter: blur(22px);
+    border-radius: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+    text-align: center;
+    color: #f5e9ff;
+    transition: 0.3s ease;
 }
 
-/* heading */
+.container:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.45);
+}
+
+/* Heading */
 
 .container p {
     font-weight: 600;
-    font-size: 15px;
-    margin-bottom: 8px;
+    font-size: 16px;
+    margin-bottom: 12px;
+    opacity: 0.9;
 }
 
-/* input box */
+/* Input */
 
 .container input {
-    font-size: 16px;
     width: 100%;
-    height: 50px;
-    border: 1px solid #494eea;
-    outline: 0;
-    padding: 10px;
-    margin: 10px 0 20px;
-    border-radius: 5px;
+    height: 52px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.08);
+    padding: 0 14px;
+    font-size: 15px;
+    color: #fff;
+    outline: none;
+    margin: 12px 0 22px;
+    transition: 0.25s ease;
 }
 
-/* button to generate QR code */
+.container input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.container input:focus {
+    border-color: #c084fc;
+    box-shadow: 0 0 0 3px rgba(192, 132, 252, 0.25);
+    background: rgba(255, 255, 255, 0.12);
+}
+
+/* Button */
 
 .container button {
     width: 100%;
-    height: 50px;
-    background: #494eea;
-    color: #fff;
-    border: 0;
-    outline: 0;
-    border-radius: 5px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    height: 52px;
+    border-radius: 12px;
+    border: none;
+    background: linear-gradient(135deg, #c084fc, #7c3aed);
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
     cursor: pointer;
-    margin: 20px 0;
-    font-weight: 500;
-    outline: none;
-    -webkit-tap-highlight-color: transparent;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 25px rgba(124, 58, 237, 0.45);
 }
 
-/* QR code image */
+.container button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 35px rgba(124, 58, 237, 0.6);
+}
+
+.container button:active {
+    transform: scale(0.97);
+}
+
+/* QR Image Box */
 
 #imgBox {
-    width: 200px;
-    border-radius: 5px;
+    width: 210px;
+    margin: 0 auto;
+    border-radius: 12px;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 1s;
+    transition: all 0.6s ease;
 }
 
 #imgBox img {
     width: 100%;
-    padding: 10px;
+    padding: 14px;
+    background: white;
+    border-radius: 12px;
 }
 
-/* show img class */
+/* Show QR */
 
 #imgBox.show-img {
-    max-height: 300px;
-    margin: 10px auto;
-    border: 1px solid #d1d1d1;
+    max-height: 320px;
+    margin: 15px auto 20px;
+    animation: fadeIn 0.6s ease;
 }
 
-/* error (no text or URl) */
+/* Error shake */
 
 .error {
-    animation: shake 0.1s linear 10;
+    animation: shake 0.1s linear 8;
 }
 
-/* shake animation */
+/* Animations */
 
 @keyframes shake {
     0% {
@@ -101,7 +136,7 @@ body {
     }
 
     25% {
-        transform: translateX(-2px);
+        transform: translateX(-3px);
     }
 
     50% {
@@ -109,7 +144,7 @@ body {
     }
 
     75% {
-        transform: translateX(2px);
+        transform: translateX(3px);
     }
 
     100% {
@@ -117,28 +152,24 @@ body {
     }
 }
 
-/* responsiveness */
-
-@media (max-width: 440px) {
-
-    .container {
-        width: 340px;
-        padding: 20px 25px;
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
     }
 
-    .container button {
-        margin: 10px 0;
+    to {
+        opacity: 1;
+        transform: scale(1);
     }
 }
 
-@media (max-width: 380px) {
+/* Mobile */
+
+@media (max-width: 460px) {
 
     .container {
-        width: 280px;
-        padding: 20px 25px;
-    }
-
-    .container button {
-        margin: 10px 0;
+        width: 92%;
+        padding: 25px;
     }
 }

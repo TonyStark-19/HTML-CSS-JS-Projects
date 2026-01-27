@@ -1,5 +1,4 @@
-//  js logic
-
+// get elements
 const quote = document.getElementById("quote");
 const author = document.getElementById("author");
 
@@ -8,7 +7,6 @@ const API_URL = "https://quotes-api-self.vercel.app/quote";
 
 // fetch quote
 async function getQuote(url) {
-
     // fetch response
     const response = await fetch(url);
     var data = await response.json();

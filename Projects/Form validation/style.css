@@ -50,7 +50,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    margin: 10px 0;
+    margin: 5px 0 15px;
     position: relative;
 }
 
@@ -67,15 +67,15 @@
 
 /* label name */
 
-.input-group label {
-    flex-basis: 28%;
+form label {
+    font-size: 14px;
 }
 
 /* input and textarea */
 
 .input-group input,
 .input-group textarea {
-    flex-basis: 68%;
+    width: 100%;
     background: transparent;
     outline: 0;
     padding: 10px 0;
@@ -84,6 +84,7 @@
     padding: 10px;
     color: #333;
     font-size: 16px;
+    resize: none;
 }
 
 ::placeholder {
@@ -118,13 +119,14 @@
 form button {
     background: #141a34;
     color: #fff;
-    border-radius: 4px;
+    border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.7);
-    padding: 10px 40px;
+    padding: 15px 40px;
     outline: 0;
     cursor: pointer;
     display: block;
-    margin: 30px auto 20px;
+    margin: 20px 0;
+    width: 100%;
     outline: none;
     -webkit-tap-highlight-color: transparent;
 }
@@ -139,57 +141,9 @@ form button {
 
 /* responsiveness */
 
-@media (max-width: 650px) {
+@media (max-width: 500px) {
 
-    .input-group,
-    .message {
-        flex-direction: column;
-        gap: 10px;
-        align-items: center;
-    }
-
-    .input-group input,
-    .input-group textarea {
-        width: 85%;
-    }
-
-    .input-group span {
-        bottom: 12px;
-        right: 50px;
-    }
-}
-
-@media (max-width: 550px) {
-
-    .input-group label {
-        display: none;
-    }
-
-    .input-group input,
-    .input-group textarea {
-        width: 90%;
-        margin: 20px 0 10px;
-    }
-
-    .input-group span {
-        bottom: -20px;
-        left: 25px;
-    }
-}
-
-@media (max-width: 400px) {
-
-    .input-group input,
-    .input-group textarea {
-        width: 100%;
-    }
-
-    .input-group span {
-        left: 10px;
-        width: 100%;
-    }
-
-    form button {
-        padding: 8px 30px;
+    .container form {
+        padding: 50px 15px 20px;
     }
 }
