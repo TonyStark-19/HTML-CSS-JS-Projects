@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <main class="toy" id="toy">
+        <h1 class="brand">Etch-a-Sketch</h1>
+
+        <div class="screen-wrap">
+            <div class="grid" id="grid" role="img" aria-label="Drawing area. Move the pointer over it to draw."></div>
+        </div>
+
+        <div class="controls">
+            <span class="knob" aria-hidden="true"></span>
+
+            <div class="panel">
+                <div class="field">
+                    <label for="size">Grid size</label>
+                    <input type="range" id="size" min="2" max="100" value="16">
+                    <output id="size-label" for="size">16 × 16</output>
+                </div>
+
+                <div class="modes" role="group" aria-label="Drawing mode">
+                    <button type="button" class="mode-btn" data-mode="classic" aria-pressed="true">Classic</button>
+                    <button type="button" class="mode-btn" data-mode="rainbow" aria-pressed="false">Rainbow</button>
+                    <button type="button" class="mode-btn" data-mode="darken" aria-pressed="false">Darken</button>
+                    <button type="button" class="mode-btn" data-mode="eraser" aria-pressed="false">Eraser</button>
+                </div>
+
+                <div class="field actions">
+                    <label class="check">
+                        <input type="checkbox" id="lines">
+                        Show grid lines
+                    </label>
+                    <button type="button" class="clear-btn" id="clear">Shake to clear</button>
+                </div>
+            </div>
+
+            <span class="knob" aria-hidden="true"></span>
+        </div>
+    </main>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
