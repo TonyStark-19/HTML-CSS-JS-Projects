@@ -96,6 +96,7 @@ Each project includes:
 | 21 | Image Search Engine | Unsplash API search |
 | 22 | Form Validation | Input validation checks |
 | 23 | Notes App | Multi-note app |
+| 24 | Etch-a-sketch | A sketch app |
 
 ---
 
