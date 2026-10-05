@@ -18,10 +18,14 @@ Click the **Fork** button at the top right of this repo.
 
 ### 2️⃣ Clone Your Fork
 
+After forking the repository, copy the URL of **your fork** and clone it:
+
 ```bash
-git clone https://github.com/TonyStark-19/HTML-CSS-JS-Projects.git
+git clone https://github.com/YOUR-USERNAME/HTML-CSS-JS-Projects.git
 cd HTML-CSS-JS-Projects
 ```
+
+> Replace `YOUR-USERNAME` with your GitHub username.
 
 ---
 
