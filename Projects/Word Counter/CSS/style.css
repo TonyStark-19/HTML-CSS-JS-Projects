@@ -4,7 +4,9 @@
   background: #09090b;
 }
 
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
 body {
   min-height: 100vh;
@@ -54,8 +56,13 @@ textarea {
   outline: none;
 }
 
-textarea::placeholder { color: #777780; }
-textarea:focus { border-color: #898991; }
+textarea::placeholder {
+  color: #777780;
+}
+
+textarea:focus {
+  border-color: #898991;
+}
 
 .results {
   display: grid;
@@ -71,9 +78,20 @@ textarea:focus { border-color: #898991; }
   border-left: 1px solid #333338;
 }
 
-.stat:first-child { padding-left: 0; border-left: 0; }
-.stat strong { font-size: 1.8rem; font-variant-numeric: tabular-nums; }
-.stat span { color: #a1a1aa; font-size: 0.85rem; }
+.stat:first-child {
+  padding-left: 0;
+  border-left: 0;
+}
+
+.stat strong {
+  font-size: 1.8rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.stat span {
+  color: #a1a1aa;
+  font-size: 0.85rem;
+}
 
 button {
   padding: 12px 18px;
@@ -85,11 +103,39 @@ button {
   cursor: pointer;
 }
 
-button:hover { background: #333338; }
-button:focus-visible { outline: 2px solid #a1a1aa; outline-offset: 3px; }
+button:hover {
+  background: #333338;
+}
+
+button:focus-visible {
+  outline: 2px solid #a1a1aa;
+  outline-offset: 3px;
+}
 
 @media (max-width: 480px) {
-  .stat { padding-left: 12px; }
-  .stat strong { font-size: 1.45rem; }
-  .stat span { font-size: 0.75rem; }
+
+  .stat {
+    padding-left: 12px;
+  }
+
+  .stat strong {
+    font-size: 1.45rem;
+  }
+
+  .stat span {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .results {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .stat {
+    border: none;
+    padding-left: 0;
+  }
 }
