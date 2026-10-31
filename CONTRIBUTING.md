@@ -62,13 +62,33 @@ Animated Sidebar Menu
 
 ---
 
-### 📁 Project Structure Rules
+## 📁 Project Structure Rules
 
-Please follow these structure rules carefully:
+Please follow these structure rules carefully.
+
+---
 
 ### ✅ Inside your project folder:
 
-```css
+**1. For a single CSS and JavaScript file, keep them in the root directory.** Do not create separate `css/` or `js/` folders unless multiple files are required.
+
+```text
+Your Project Name/
+│
+├── index.html      ← Main entry file (required)
+├── style.css       ← Single CSS file
+├── script.js       ← Single JavaScript file
+│
+├── Pages/          ← If your project has multiple pages
+│   └── about.html
+│
+└── Images/         ← Images used inside your project
+```
+---
+
+**2. If your project requires multiple CSS or JavaScript files, create the respective folders.**
+
+```text
 Your Project Name/
 │
 ├── index.html      ← Main entry file (required)
@@ -76,17 +96,31 @@ Your Project Name/
 ├── Pages/          ← If your project has multiple pages
 │   └── about.html
 │
-├── CSS/            ← All CSS files
-│   └── style.css
+├── css/            ← Create only if multiple CSS files are needed
+│   ├── style.css
+│   └── responsive.css
 │
-├── JS/             ← All JavaScript files
-│   └── script.js
+├── js/             ← Create only if multiple JavaScript files are needed
+│   ├── script.js
+│   └── validation.js
 │
 └── Images/         ← Images used inside your project
 ```
 ---
 
-### 🖼 Image Rules
+### 📌 Important Rules
+
+- **`index.html` is mandatory** and must be present in the project root.
+- **Single CSS file:** Keep `style.css` in the root directory.
+- **Single JavaScript file:** Keep `script.js` in the root directory.
+- **Multiple CSS files:** Create a `css/` folder and place all CSS files inside it.
+- **Multiple JavaScript files:** Create a `js/` folder and place all JavaScript files inside it.
+- **Pages folder:** Create `Pages/` only when the project contains multiple HTML pages.
+- **Images folder:** Store project images in the `Images/` folder.
+- **Avoid unnecessary folders:** Keep the project structure simple, clean, and organized according to the actual requirements.
+---
+
+## 🖼 Image Rules
 
 - Add your project preview image inside:
 
@@ -150,14 +184,17 @@ Inside the `project-grid` div, add your project card using this layout:
     <div class="card-image">
         <img src="/Images/Projects/YOUR-PROJECT-IMAGE.png" alt="Project Name">
     </div>
+
     <div class="card-content">
         <h3>Your Project Name</h3>
+
         <div class="button-group">
             <a target="_blank"
                 href="#"
                 class="icon-btn" title="View Code">
                 <i class="fa-solid fa-code"></i>
             </a>
+
             <a target="_blank" href="/Projects/Your Project Name/index.html" class="icon-btn" title="Live Demo">
                 <i class="fa-solid fa-up-right-from-square"></i>
             </a>
@@ -167,6 +204,24 @@ Inside the `project-grid` div, add your project card using this layout:
 ```
 
 ⚠️ Note: You can leave the code link (`href="#"`) empty — the maintainer will update it after review.
+
+---
+
+
+## 📝 README.md Update Rule
+
+- After creating your project, add an entry for it to the project table in the main `README.md` file.
+- Follow the existing table format and maintain the correct numbering sequence.
+- Include the project number, project name, and a short description.
+
+**Example:**
+
+| No. | Project Name | Description |
+|---:|---|---|
+| 25 | Word Counter | A simple word counter |
+
+**Important:** Do not
+forget to update `README.md` whenever you add a new project. Ensure the project name and description are clear, concise, and consistent with the existing entries.
 
 ---
 
