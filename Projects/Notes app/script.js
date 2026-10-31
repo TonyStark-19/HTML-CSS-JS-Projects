@@ -34,7 +34,7 @@ createBtn.addEventListener("click", () => {
     // add p and i in note div
     noteDiv.appendChild(inputBox);
     noteDiv.appendChild(icon);
-    
+
     // add note div in notes container
     notesContainer.appendChild(noteDiv);
 

@@ -9,7 +9,6 @@
 }
 
 /* hero */
-
 .hero {
     width: 100%;
     min-height: 100vh;
@@ -19,7 +18,6 @@
 }
 
 /* container */
-
 .container {
     width: 800px;
     height: 180px;
@@ -30,7 +28,6 @@
 }
 
 /* square before */
-
 .container::before {
     content: '';
     width: 180px;
@@ -44,7 +41,6 @@
 }
 
 /* circle after */
-
 .container::after {
     content: '';
     width: 180px;
@@ -58,7 +54,6 @@
 }
 
 /* clock */
-
 .clock {
     width: 100%;
     height: 100%;
@@ -80,7 +75,6 @@
 }
 
 /* span item names */
-
 .clock span::after {
     font-size: 16px;
     position: absolute;
@@ -102,9 +96,7 @@
 }
 
 /* responsiveness */
-
 @media (max-width: 870px) {
-
     .container {
         width: 90%;
         height: 160px;
@@ -112,7 +104,6 @@
 }
 
 @media (max-width: 770px) {
-
     .container {
         height: 140px;
     }
@@ -130,7 +121,6 @@
 }
 
 @media (max-width: 670px) {
-
     .container {
         height: 140px;
     }
@@ -148,7 +138,6 @@
 }
 
 @media (max-width: 570px) {
-
     .container {
         height: 120px;
     }
@@ -166,7 +155,6 @@
 }
 
 @media (max-width: 470px) {
-
     .container {
         height: 100px;
     }
@@ -189,7 +177,6 @@
 }
 
 @media (max-width: 430px) {
-
     .container {
         height: 110px;
     }

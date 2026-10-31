@@ -9,7 +9,6 @@
 }
 
 /* hero */
-
 .hero {
     width: 100%;
     min-height: 100vh;
@@ -22,7 +21,6 @@
 }
 
 /* heading */
-
 .hero h1 {
     font-size: 45px;
     font-weight: 500;
@@ -34,7 +32,6 @@
 }
 
 /* textarea */
-
 textarea {
     width: 600px;
     height: 250px;
@@ -55,7 +52,6 @@ textarea::placeholder {
 }
 
 /* container for button and select box */
-
 .row {
     width: 600px;
     display: flex;
@@ -64,7 +60,6 @@ textarea::placeholder {
 }
 
 /* listen to speech button */
-
 .row button {
     background: #ff2963;
     color: #fff;
@@ -85,7 +80,6 @@ textarea::placeholder {
 }
 
 /* select box */
-
 select {
     flex: 1;
     color: #fff;
@@ -100,9 +94,7 @@ select {
 }
 
 /* responsiveness */
-
 @media (max-width: 650px) {
-
     .hero h1 {
         font-size: 40px;
         margin-bottom: 30px;
@@ -115,7 +107,6 @@ select {
 }
 
 @media (max-width: 550px) {
-
     .hero h1 {
         font-size: 35px;
         margin-top: 0;
@@ -142,7 +133,6 @@ select {
 }
 
 @media (max-width: 450px) {
-
     .hero h1 {
         font-size: 30px;
     }
@@ -156,7 +146,6 @@ select {
 }
 
 @media (max-width: 350px) {
-
     .hero h1 {
         font-size: 30px;
     }

@@ -8,7 +8,6 @@
 }
 
 /* container */
-
 .container {
     height: 100vh;
     width: 100%;
@@ -19,7 +18,6 @@
 }
 
 /* input box */
-
 .input-box {
     width: 400px;
     max-width: 90%;
@@ -41,7 +39,6 @@
 }
 
 /* button */
-
 .input-box button {
     background: #fff;
     padding: 8px 12px;
@@ -62,7 +59,6 @@
 }
 
 /* message */
-
 #message {
     position: absolute;
     bottom: -30px;

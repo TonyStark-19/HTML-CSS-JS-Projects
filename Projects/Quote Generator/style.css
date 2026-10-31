@@ -12,7 +12,6 @@ body {
 }
 
 /* quote-box */
-
 .quote-box {
     background: #fff;
     width: 700px;
@@ -27,7 +26,6 @@ body {
 }
 
 /* heading */
-
 .quote-box h2 {
     font-size: 32px;
     font-weight: 600;
@@ -48,7 +46,6 @@ body {
 }
 
 /* quote text */
-
 .quote-box blockquote {
     font-size: 25px;
     min-height: 110px;
@@ -60,7 +57,6 @@ body {
 }
 
 /* author name */
-
 .quote-box span {
     display: block;
     margin-top: 10px;
@@ -79,7 +75,6 @@ body {
 }
 
 /* buttons */
-
 .quote-box .button {
     width: 100%;
     margin-top: 50px;
@@ -114,23 +109,19 @@ body {
 }
 
 /* responsiveness */
-
 @media (max-width: 750px) {
-
     .quote-box {
         width: 600px;
     }
 }
 
 @media (max-width: 650px) {
-
     .quote-box {
         width: 500px;
     }
 }
 
 @media (max-width: 550px) {
-
     .quote-box {
         width: 400px;
     }
@@ -145,7 +136,6 @@ body {
 }
 
 @media (max-width: 450px) {
-
     .quote-box {
         width: 300px;
         padding: 30px 30px 20px 30px;

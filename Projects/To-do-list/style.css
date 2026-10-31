@@ -9,7 +9,6 @@
 }
 
 /* container */
-
 .container {
     width: 100%;
     min-height: 100vh;
@@ -20,7 +19,6 @@
 }
 
 /* to do app container */
-
 .todo-app {
     width: 100%;
     max-width: 540px;
@@ -31,7 +29,6 @@
 }
 
 /* heading */
-
 .todo-app h2 {
     color: #002765;
     display: flex;
@@ -44,7 +41,6 @@
 }
 
 /* row */
-
 .row {
     display: flex;
     align-items: center;
@@ -56,7 +52,6 @@
 }
 
 /* input box */
-
 .row input {
     flex: 1;
     border: none;
@@ -67,7 +62,6 @@
 }
 
 /* add button */
-
 .row button {
     border: none;
     outline: none;
@@ -82,7 +76,6 @@
 }
 
 /* tast list item */
-
 ul li {
     list-style: none;
     font-size: 17px;
@@ -94,7 +87,6 @@ ul li {
 }
 
 /* check box */
-
 ul li::before {
     content: '';
     position: absolute;
@@ -109,7 +101,6 @@ ul li::before {
 }
 
 /* if checked */
-
 ul li.checked {
     color: #555;
     text-decoration: line-through;
@@ -120,7 +111,6 @@ ul li.checked::before {
 }
 
 /* cross icon */
-
 ul li span {
     position: absolute;
     right: 0;
@@ -139,16 +129,13 @@ ul li span:hover {
 }
 
 /* responsiveness */
-
 @media (max-width: 570px) {
-
     .todo-app {
         max-width: 440px;
     }
 }
 
 @media (max-width: 470px) {
-
     .todo-app {
         max-width: 340px;
         padding: 30px 20px 60px;
@@ -166,7 +153,6 @@ ul li span:hover {
 }
 
 @media (max-width: 360px) {
-
     .todo-app {
         max-width: 290px;
         padding: 30px 20px 60px;

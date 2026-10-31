@@ -15,7 +15,6 @@ body {
 }
 
 /* container */
-
 .container {
     margin: 140px;
     width: 90%;
@@ -23,7 +22,6 @@ body {
 }
 
 /* heading */
-
 .container h1 {
     font-weight: 500;
     font-size: 45px;
@@ -35,8 +33,7 @@ body {
     padding-bottom: 7px;
 }
 
-/* dis2play box */
-
+/* display box */
 .display {
     width: 100%;
     margin: 50px 0 30px;
@@ -63,7 +60,6 @@ body {
 }
 
 /* button */
-
 .container button {
     border: 0;
     outline: 0;
@@ -90,23 +86,19 @@ body {
 }
 
 /* responsiveness */
-
 @media (max-width: 950px) {
-
     .container {
         margin: 140px 80px;
     }
 }
 
 @media (max-width: 850px) {
-
     .container {
         margin: 140px 40px;
     }
 }
 
 @media (max-width: 780px) {
-
     .container {
         margin: 150px 40px;
         max-width: 600px;
@@ -131,7 +123,6 @@ body {
 }
 
 @media (max-width: 680px) {
-
     .container {
         margin: 170px 40px;
         max-width: 500px;
@@ -165,7 +156,6 @@ body {
 }
 
 @media (max-width: 580px) {
-
     .container {
         margin: 200px 40px;
         max-width: 400px;
@@ -198,7 +188,6 @@ body {
 }
 
 @media (max-width: 480px) {
-
     .container {
         margin: 220px 30px;
         max-width: 300px;
@@ -231,7 +220,6 @@ body {
 }
 
 @media (max-width: 360px) {
-
     .container {
         margin: 220px 20px;
         max-width: 280px;

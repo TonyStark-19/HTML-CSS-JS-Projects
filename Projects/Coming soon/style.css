@@ -9,7 +9,6 @@
 }
 
 /* container */
-
 .container {
     width: 100%;
     height: 100vh;
@@ -22,7 +21,6 @@
 }
 
 /* logo text */
-
 .logo-text {
     padding: 20px 0;
     color: #ff3753;
@@ -31,7 +29,6 @@
 }
 
 /* content */
-
 .content {
     top: 50%;
     position: absolute;
@@ -65,7 +62,6 @@
 }
 
 /* countdown */
-
 .launch-time {
     display: flex;
 }
@@ -80,7 +76,6 @@
 }
 
 /* rocket icon */
-
 .rocket {
     width: 250px;
     position: absolute;
@@ -90,9 +85,7 @@
 }
 
 /* rocket icon animation */
-
 @keyframes rocket {
-
     0% {
         bottom: 0;
         opacity: 0;
@@ -105,9 +98,7 @@
 }
 
 /* responsiveness */
-
 @media (max-width: 1225px) {
-
     .rocket {
         width: 200px;
         right: 40px;
@@ -115,14 +106,12 @@
 }
 
 @media (max-width: 1150px) {
-
     .container {
         padding: 0 5%;
     }
 }
 
 @media (max-width: 1050px) {
-
     .logo-text {
         font-size: 20px;
     }
@@ -133,7 +122,6 @@
 }
 
 @media (max-width: 950px) {
-
     .rocket {
         width: 150px;
         right: 20px;
@@ -149,7 +137,6 @@
 }
 
 @media (max-width: 750px) {
-
     .container {
         padding: 0 3%;
     }
@@ -173,7 +160,6 @@
 }
 
 @media (max-width: 650px) {
-
     .content {
         width: 400px;
     }
@@ -184,14 +170,12 @@
 }
 
 @media (max-width: 450px) {
-
     .content {
         width: 300px;
     }
 }
 
 @media (max-width: 400px) {
-
     .logo-text {
         font-size: 16px;
     }

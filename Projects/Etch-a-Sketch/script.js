@@ -1,3 +1,4 @@
+// get references to DOM elements
 const toy = document.getElementById("toy");
 const grid = document.getElementById("grid");
 const sizeInput = document.getElementById("size");
@@ -7,11 +8,12 @@ const clearBtn = document.getElementById("clear");
 const modeButtons = document.querySelectorAll(".mode-btn");
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
+// constants
 const INK = "38, 38, 38";
 const MAX_LEVEL = 10;
-
 let mode = "classic";
 
+// build grid function
 function buildGrid(size) {
     grid.style.setProperty("--n", size);
     grid.replaceChildren();
@@ -25,6 +27,7 @@ function buildGrid(size) {
     grid.appendChild(fragment);
 }
 
+// paint function
 function paint(cell) {
     switch (mode) {
         case "classic":
@@ -53,6 +56,7 @@ function paint(cell) {
     }
 }
 
+// draw at function
 function drawAt(event) {
     const element = document.elementFromPoint(event.clientX, event.clientY);
     if (element && element.classList.contains("cell")) {
@@ -60,6 +64,7 @@ function drawAt(event) {
     }
 }
 
+// clear grid
 function clearGrid() {
     const size = Number(sizeInput.value);
 
@@ -103,4 +108,5 @@ linesToggle.addEventListener("change", () => {
 });
 clearBtn.addEventListener("click", clearGrid);
 
+// calling build grid function
 buildGrid(Number(sizeInput.value));

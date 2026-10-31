@@ -9,7 +9,6 @@
 }
 
 /* container */
-
 .container {
     overflow: hidden;
     width: 100%;
@@ -20,7 +19,6 @@
 }
 
 /* calculator div */
-
 .calculator {
     width: 100%;
     max-width: 600px;
@@ -29,7 +27,6 @@
 }
 
 /* heading */
-
 .calculator h1 {
     font-size: 60px;
 }
@@ -39,7 +36,6 @@
 }
 
 /* input box */
-
 .input-box {
     margin: 40px 0;
     padding: 35px;
@@ -61,7 +57,6 @@
 }
 
 /* to make input box fully clickable */
-
 .input-box input::-webkit-calendar-picker-indicator {
     top: 0;
     left: 0;
@@ -76,7 +71,6 @@
 }
 
 /* calculate button */
-
 .input-box button {
     background: #ffff76;
     border: 0;
@@ -91,7 +85,6 @@
 }
 
 /* result age */
-
 #result {
     font-size: 20px;
     margin-left: 10px;
@@ -102,30 +95,25 @@
 }
 
 /* responsiveness */
-
 @media (max-width: 1240px) {
-
     .calculator {
         margin: 120px;
     }
 }
 
 @media (max-width: 850px) {
-
     .calculator {
         margin: 120px 60px;
     }
 }
 
 @media (max-width: 730px) {
-
     .calculator {
         margin: 120px 30px;
     }
 }
 
 @media (max-width: 680px) {
-
     .calculator {
         margin: 150px 30px 0;
     }
@@ -142,7 +130,6 @@
 }
 
 @media (max-width: 580px) {
-
     .calculator {
         margin: 170px 20px 0;
     }
@@ -171,7 +158,6 @@
 }
 
 @media (max-width: 500px) {
-
     .calculator h1 {
         font-size: 35px;
     }
@@ -191,7 +177,6 @@
 }
 
 @media (max-width: 450px) {
-
     .calculator {
         margin: 200px 20px 0;
     }
@@ -218,7 +203,6 @@
 }
 
 @media (max-width: 350px) {
-
     .calculator {
         margin: 200px 10px 0;
     }

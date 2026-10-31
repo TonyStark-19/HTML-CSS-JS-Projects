@@ -9,7 +9,6 @@
 }
 
 /* background */
-
 .hero {
     width: 100%;
     height: 100vh;
@@ -20,7 +19,6 @@
 }
 
 /* calender container */
-
 .calender {
     width: 400px;
     height: 250px;
@@ -59,9 +57,7 @@
 }
 
 /* responsivenesss */
-
 @media (max-width: 450px) {
-
     .calender {
         width: 90%;
     }

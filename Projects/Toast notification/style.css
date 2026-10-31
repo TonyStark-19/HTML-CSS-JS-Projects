@@ -13,13 +13,11 @@ body {
 }
 
 /* button container */
-
 .buttons {
     margin: 50px;
 }
 
 /* buttons */
-
 .buttons button {
     color: #fff;
     border: 0;
@@ -47,7 +45,6 @@ body {
 }
 
 /* notification box */
-
 #toastBox {
     position: absolute;
     bottom: 30px;
@@ -60,7 +57,6 @@ body {
 }
 
 /* notification */
-
 .toast {
     width: 400px;
     height: 80px;
@@ -76,7 +72,6 @@ body {
 }
 
 /* animation for toast notification */
-
 @keyframes moveleft {
     100% {
         transform: translateX(0);
@@ -84,7 +79,6 @@ body {
 }
 
 /* icons */
-
 .toast i {
     margin: 0 20px;
     font-size: 35px;
@@ -100,7 +94,6 @@ body {
 }
 
 /* progress bar */
-
 .toast::after {
     content: '';
     position: absolute;
@@ -121,7 +114,6 @@ body {
 }
 
 /* animation for progress bar */
-
 @keyframes anim {
     100% {
         width: 0;
@@ -129,9 +121,7 @@ body {
 }
 
 /* responsiveness */
-
 @media (max-width: 500px) {
-
     body {
         display: flex;
         justify-content: center;
@@ -155,7 +145,6 @@ body {
 }
 
 @media (max-width: 450px) {
-
     .buttons {
         margin: 30px 20px;
     }
@@ -167,7 +156,6 @@ body {
 }
 
 @media (max-width: 420px) {
-
     .toast {
         width: 300px;
         font-size: 15px;
@@ -179,7 +167,6 @@ body {
 }
 
 @media (max-width: 400px) {
-
     .buttons button {
         width: 80px;
     }
@@ -191,7 +178,6 @@ body {
 }
 
 @media (max-width: 350px) {
-
     .toast {
         width: 280px;
     }

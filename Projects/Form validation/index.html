@@ -14,31 +14,33 @@
 </head>
 
 <body>
-
     <div class="container">
-
         <form>
             <i class="fa-solid fa-paper-plane"></i>
 
             <label for="contact-name">Full Name</label>
+
             <div class="input-group">
                 <input type="text" placeholder="Enter your name" id="contact-name" onkeyup="validateName()">
                 <span id="name-error"></span>
             </div>
 
             <label for="contact-phone">Phone No.</label>
+
             <div class="input-group">
                 <input type="tel" placeholder="123 456 7890" id="contact-phone" onkeyup="validatePhone()">
                 <span id="phone-error"></span>
             </div>
 
             <label for="contact-email">Email Id</label>
+
             <div class="input-group">
                 <input type="email" placeholder="Enter Email" id="contact-email" onkeyup="validateEmail()">
                 <span id="email-error"></span>
             </div>
 
             <label for="contact-message">Your Message</label>
+
             <div class="input-group message">
                 <textarea rows="5" placeholder="Enter your message" id="contact-message"
                     onkeyup="validateMessage()"></textarea>
@@ -50,12 +52,10 @@
                 <span id="submit-error"></span>
             </div>
         </form>
-
     </div>
 
     <!-- custom js link -->
     <script src="script.js"></script>
-
 </body>
 
 </html>

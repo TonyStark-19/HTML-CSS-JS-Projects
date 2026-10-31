@@ -1,3 +1,4 @@
+/* root styles */
 :root {
     --page: #1f2a36;
     --frame: #c8312b;
@@ -210,14 +211,12 @@ button:hover {
 }
 
 @media (prefers-reduced-motion: reduce) {
-
     .toy.shake {
         animation: none;
     }
 }
 
 @media (max-width: 560px) {
-
     .toy {
         padding: 1rem;
     }

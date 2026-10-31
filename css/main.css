@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap');
 
 /* Brand Colors */
-
 :root {
     --html-orange: #E34F26;
     --css-blue: #1572B6;
@@ -25,7 +24,6 @@ body {
 }
 
 /* Updated Trinity Mesh Gradient */
-
 .mesh-bg {
     position: fixed;
     inset: 0;
@@ -42,7 +40,6 @@ body {
 }
 
 /* Layout */
-
 .hero-grid {
     display: grid;
     grid-template-columns: 1.2fr 1fr;
@@ -53,7 +50,6 @@ body {
 }
 
 /* Content Side */
-
 .badge {
     color: var(--js-yellow);
     font-weight: 700;
@@ -75,7 +71,6 @@ h1 {
 }
 
 /* Triple Gradient Text */
-
 .gradient-text {
     background: linear-gradient(90deg, var(--html-orange), var(--css-blue), var(--js-yellow));
     -webkit-background-clip: text;
@@ -92,7 +87,6 @@ p {
 }
 
 /* Buttons */
-
 .cta-btns {
     display: flex;
     gap: 1.2rem;
@@ -136,7 +130,6 @@ p {
 }
 
 /* Stats */
-
 .stats-row {
     display: flex;
     gap: 3rem;
@@ -170,7 +163,6 @@ p {
 }
 
 /* Visual Side - Card Stack */
-
 .visual-side {
     position: relative;
     display: flex;
@@ -281,7 +273,6 @@ p {
 /* Responsiveness */
 
 @media (max-width: 1100px) {
-
     .hero-grid {
         grid-template-columns: 1fr;
         text-align: center;
@@ -303,7 +294,6 @@ p {
 }
 
 @media (max-width: 600px) {
-
     .cta-btns {
         flex-direction: column;
     }
