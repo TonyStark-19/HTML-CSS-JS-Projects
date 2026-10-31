@@ -97,6 +97,7 @@ Each project includes:
 | 22 | Form Validation | Input validation checks |
 | 23 | Notes App | Multi-note app |
 | 24 | Etch-a-sketch | A sketch app |
+| 25 | Word Counter | A simple word counter |
 
 ---
 
