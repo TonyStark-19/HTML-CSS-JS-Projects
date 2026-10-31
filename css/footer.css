@@ -2,7 +2,7 @@
 
 .site-footer {
     margin-top: 6rem;
-    padding: 5rem 10% 3rem;
+    padding: 4rem 10% 2rem;
     background: linear-gradient(to bottom,
             transparent,
             rgba(5, 8, 15, 0.8) 20%,
@@ -38,7 +38,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
 }
 
 /* HEADINGS */
@@ -82,15 +82,17 @@
 .footer-bottom {
     text-align: center;
     border-top: 1px solid var(--glass-border);
-    padding-top: 2rem;
+    padding-top: 1rem;
     font-size: 0.9rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .footer-bottom p {
     margin-top: 10px;
+    font-size: 0.9rem;
 }
 
 .footer-bottom .muted {
